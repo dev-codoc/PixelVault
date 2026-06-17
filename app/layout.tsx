@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "PixelVault - Frontend Design & Animation Resources",
   description:
     "A curated collection of frontend design, animation, illustration, video and UI inspiration resources.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({
