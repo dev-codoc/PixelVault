@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PixelVault
 
-## Getting Started
+> A curated collection of frontend design, animation, illustration, video and UI inspiration resources.
 
-First, run the development server:
+## 📋 Overview
 
+PixelVault is a comprehensive resource hub designed for frontend developers, designers, and creative professionals. It provides a carefully curated collection of design inspiration, animation examples, UI components, and multimedia resources to accelerate your creative workflow.
+
+## ✨ Features
+
+- **Design Inspiration** - Curated design patterns and UI inspiration
+- **Animation Resources** - Modern animation techniques and examples
+- **Illustration Gallery** - High-quality illustrations for reference and inspiration
+- **Video Tutorials** - Learn from professional video content
+- **UI Components** - Ready-to-use component patterns and best practices
+- **Responsive Design** - Fully optimized for all device sizes
+- **Dark Mode** - Eye-friendly dark theme interface
+- **Modern Stack** - Built with cutting-edge web technologies
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd PixelVault
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open your browser
+Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: [Next.js 16](https://nextjs.org) - React framework for production
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com) - Utility-first CSS framework
+- **UI Icons**: [Lucide React](https://lucide.dev) & [React Icons](https://react-icons.github.io/react-icons)
+- **Language**: [TypeScript](https://www.typescriptlang.org) - Type-safe development
+- **Linting**: [ESLint](https://eslint.org) - Code quality assurance
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+├── app/
+│   ├── components/
+│   │   └── footer/           # Footer component
+│   ├── resources/            # Resources page
+│   ├── layout.tsx            # Root layout
+│   ├── page.tsx              # Home page
+│   └── globals.css           # Global styles
+├── public/                   # Static assets
+├── package.json              # Dependencies
+├── tailwind.config.ts        # Tailwind configuration
+├── tsconfig.json             # TypeScript configuration
+└── next.config.ts            # Next.js configuration
+```
 
-## Deploy on Vercel
+## 📝 Available Scripts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# Development server
+npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Production build
+npm build
+
+# Run production build
+npm start
+
+# Lint code
+npm run lint
+```
+
+## 🎨 Customization
+
+### Modify Styles
+
+All global styles are in [app/globals.css](app/globals.css). The project uses Tailwind CSS v4 for component styling.
+
+### Add New Pages
+
+Create new pages in the `app/` directory following Next.js App Router conventions.
+
+### Update Components
+
+All reusable components are located in `app/components/`. Add new components there and import them where needed.
+
+## 📦 Building for Production
+
+```bash
+npm run build
+npm start
+```
+
+The optimized production build will be ready in the `.next` directory.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request with improvements or bug fixes.
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 🔗 Resources
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs)
+
+---
+
+Built with ❤️ for designers and developers
