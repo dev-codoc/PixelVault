@@ -33,7 +33,7 @@ export default function HomePage() {
             </Link>
 
             <a
-              href="https://github.com"
+              href="https://github.com/dev-codoc/PixelVault"
               target="_blank"
               className="px-6 py-3 rounded-xl border border-zinc-700 hover:bg-zinc-900 transition"
             >

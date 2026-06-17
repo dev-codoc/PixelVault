@@ -1,6 +1,10 @@
-# PixelVault
-
-> A curated collection of frontend design, animation, illustration, video and UI inspiration resources.
+<div align="center">
+  <img src="./public/logo.png" alt="PixelVault Logo" width="100" height="100" />
+  
+  # PixelVault
+  
+  > A curated collection of frontend design, animation, illustration, video and UI inspiration resources.
+</div>
 
 ## 📋 Overview
 
