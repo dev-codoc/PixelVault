@@ -24,6 +24,11 @@ export default function ResourcesPage() {
           url: "https://meshgradient.in",
           use: "Create modern mesh gradients.",
         },
+        {
+          name: "Paaatterns",
+          url: "https://products.ls.graphics/paaatterns/",
+          use: "Free seamless background patterns for Figma/Sketch.",
+        },
       ],
     },
     {
@@ -74,7 +79,7 @@ export default function ResourcesPage() {
       resources: [
         {
           name: "unDraw",
-          url: "https://undraw.co/illustrations",
+          url: "https://undraw.co",
           use: "Free SVG illustrations.",
         },
         {
@@ -86,6 +91,21 @@ export default function ResourcesPage() {
           name: "ManyPixels",
           url: "https://www.manypixels.co/gallery",
           use: "Professional illustration library.",
+        },
+        {
+          name: "Blush",
+          url: "https://blush.design/",
+          use: "Customizable, mix-and-match illustration graphics.",
+        },
+        {
+          name: "DrawKit",
+          url: "https://www.drawkit.com/",
+          use: "Hand-crafted vector illustrations and icons.",
+        },
+        {
+          name: "Pixels Market",
+          url: "https://pixels.market/",
+          use: "Marketplace for premium illustrations and design assets.",
         },
       ],
     },
@@ -133,6 +153,21 @@ export default function ResourcesPage() {
           name: "Godly Website",
           url: "https://godly.website",
           use: "Award-worthy web design inspiration.",
+        },
+        {
+          name: "UI Design Daily",
+          url: "https://www.uidesigndaily.com/",
+          use: "Daily UI design challenge inspiration archive.",
+        },
+        {
+          name: "Sketch App Sources",
+          url: "https://www.sketchappsources.com/",
+          use: "Free design resources and UI kits.",
+        },
+        {
+          name: "FlyonUI",
+          url: "https://flyonui.com/",
+          use: "Tailwind CSS component library for fast UI building.",
         },
       ],
     },
